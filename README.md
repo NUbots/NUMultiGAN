@@ -1,7 +1,6 @@
 <img src='imgs/day2night.gif' align="right" width=360>
 
 <br><br><br><br>
-
 # BicycleGAN
 [Project Page](https://junyanz.github.io/BicycleGAN/) |  [Paper](https://arxiv.org/abs/1711.11586) | [Video](https://youtu.be/JvGysD2EFhw)
 
@@ -30,7 +29,7 @@ In Neural Information Processing Systems, 2017.
 - Linux or macOS
 - Python 3
 - CPU or NVIDIA GPU + CUDA CuDNN
-
+- Windows
 
 ## Getting Started ###
 ### Installation
@@ -52,8 +51,29 @@ For conda users:
 bash ./scripts/install_conda.sh
 ```
 
+For Windows users (Anaconda Prompt):
+bash ./scripts/install_conda.bat
+
+Extra Steps for Windows Users If you do not have "wget" in your PC: 
+Download wget for windows 
+https://builtvisible.com/download-your-website-with-wget/
+
+ 1) download Windows 64 version as zip: https://eternallybored.org/misc/wget/
+ 2) Open cmd from windows 
+ 3) enter 	path
+ 4) extract the downloaded file and click wget (application)
+ 5) select save folder location 	c:\Windows\System32
+ 6) restart cmd 
+ 7) enter 	wget -h
+ 8) enter 	cd c:/
+ 9) enter 	md wgetdown
 
 ### Use a Pre-trained Model
+Memo: GitBush worked this section
+1) Open GitBush
+2) enter cd NUMultiGAN
+3) make sure your location is MINGW64 ~/NUMultiGAN
+
 - Download some test photos (e.g., edges2shoes):
 ```bash
 bash ./datasets/download_testset.sh edges2shoes
