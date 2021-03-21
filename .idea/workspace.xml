@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32a6f7d3-ebed-41b4-9929-a6dafa42810b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/install_conda.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +31,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615936202356</updated>
-      <workItem from="1615936204989" duration="2368000" />
+      <workItem from="1615936204989" duration="2643000" />
+      <workItem from="1616115306733" duration="45000" />
     </task>
     <servers />
   </component>
@@ -49,5 +49,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
